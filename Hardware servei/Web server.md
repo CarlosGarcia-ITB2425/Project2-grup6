@@ -1,4 +1,4 @@
-# Instalación de Apache2
+## Instalación de Apache2
 sudo apt install -y apache2
 
 # Habilitar y arrancar Apache
