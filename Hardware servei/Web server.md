@@ -6,7 +6,7 @@ sudo apt install -y apache2
 ## Habilitar y arrancar Apache
 sudo systemctl enable apache2
 
-![Restart](image8.png)
+![Restart](img1.png)
 
 ## Verificar estado del servidor Apache
 sudo systemctl status apache2 
