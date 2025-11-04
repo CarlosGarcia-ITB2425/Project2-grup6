@@ -11,7 +11,7 @@ sudo systemctl enable apache2
 ## Verificar estado del servidor Apache
 sudo systemctl status apache2 
 
-![Install](image25.png)
+![Install](image8.png)
 
 ## Reiniciar Apache tras cambios de configuración
 sudo systemctl restart apache2
