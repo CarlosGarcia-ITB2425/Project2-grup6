@@ -1,7 +1,7 @@
 ## Instalación de Apache2
 sudo apt install -y apache2
 
-![Install](image12.png)
+![Install](image25.png)
 
 ## Habilitar y arrancar Apache
 sudo systemctl enable apache2
@@ -11,3 +11,5 @@ sudo systemctl status apache2
 
 ## Reiniciar Apache tras cambios de configuración
 sudo systemctl restart apache2
+
+![Restart](image12.png)
