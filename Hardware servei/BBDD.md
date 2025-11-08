@@ -48,9 +48,12 @@ La imagen muestra el acceso a MySQL, el cambio a la base de datos barcelona_educ
 
 La captura enseña la estructura de la tabla equipaments, mostrando cada campo, su tipo de datos, si permite NULL, si es clave primaria o secundaria, valores predeterminados y atributos extra.
 
-Consultar registros de la tabla equipaments
-sql
-SELECT * FROM equipaments LIMIT 10;
+## Consultar registros de la tabla equipaments
+
+`SELECT * FROM equipaments LIMIT 10;`
+
+![Consultar](select.png)
+
 Esta imagen muestra el resultado del comando SQL que extrae un máximo de 10 registros de la tabla equipaments, mostrando todas sus columnas y algunos datos de ejemplo.
 
 
