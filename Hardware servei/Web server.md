@@ -26,4 +26,6 @@ Permite verificar rápidamente si el servidor web Apache2 está funcionando corr
 ## Reiniciar Apache tras cambios de configuración
 `sudo systemctl restart apache2`
 
+Detiene y vuelve a arrancar el servicio Apache2, cargando la nueva configuración.
+
 ![Restart](image12.png)
