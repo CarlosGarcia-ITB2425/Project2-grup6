@@ -14,14 +14,14 @@ configura Apache2 para que se inicie automáticamente con el sistema.
 
 arranca el servicio Apache2 inmediatamente.
 
-![Restart](img1.png)
+![Install](img1.png)
 
 ## Verificar estado del servidor Apache
 `sudo systemctl status apache2` 
 
 Permite verificar rápidamente si el servidor web Apache2 está funcionando correctamente, mostrando información en tiempo real sobre su estado y procesos asociados.
 
-![Install](image8.png)
+![Verify](image8.png)
 
 ## Reiniciar Apache tras cambios de configuración
 `sudo systemctl restart apache2`
