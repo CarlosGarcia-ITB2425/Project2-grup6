@@ -51,18 +51,13 @@ Revisa el estado del servicio para verificar si está activo y corriendo sin err
 
 <img width="1007" height="471" alt="image" src="https://github.com/user-attachments/assets/4b2c0261-b48c-401f-927b-cd08cfdfd38a" />
 
+## Conexión a MySQL con soporte para importar archivos locales
+
 Para importar datos desde archivos locales a MySQL usando sentencias como LOAD DATA LOCAL INFILE, es necesario habilitar la opción local-infile al conectarse. El siguiente ejemplo muestra cómo iniciar sesión en MySQL con este soporte activado.
 
-Comando utilizado
-bash
-mysql -u bchecker -p --local-infile=1
--u bchecker: Conecta como usuario bchecker.
+`mysql -u bchecker -p --local-infile=1`
 
--p: Solicita la contraseña del usuario.
-
---local-infile=1: Habilita la opción para cargar archivos locales al servidor mediante sentencias como LOAD DATA LOCAL INFILE.
-
-Esto es especialmente útil cuando necesitas importar archivos CSV u otros datos directamente a una tabla desde tu sistema de archivos local.
+![Importar](localinfile.png)
 
 ## Acceder a MySQL y mostrar tablas de la base de datos
 
