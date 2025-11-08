@@ -6,8 +6,13 @@ Instala el servidor web Apache2 de forma automática (sin pedir confirmación) u
 ![Install](image26.png)
 
 ## Habilitar y arrancar Apache
-`sudo systemctl enable apache2` configura Apache2 para que se inicie automáticamente con el sistema.
-`sudo systemctl start apache2` arranca el servicio Apache2 inmediatamente.
+`sudo systemctl enable apache2` 
+
+configura Apache2 para que se inicie automáticamente con el sistema.
+
+`sudo systemctl start apache2` 
+
+arranca el servicio Apache2 inmediatamente.
 
 ![Restart](img1.png)
 
