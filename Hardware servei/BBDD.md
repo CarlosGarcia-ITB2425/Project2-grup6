@@ -4,7 +4,7 @@
 
 Instala el servidor de bases de datos MySQL usando permisos de administrador. Si el paquete ya está instalado, el sistema lo notificará y mantendrá la versión más reciente.
 
-![Install](Installmysql.png)
+![Install](Install_mysql.png)
 
 ## Habilitar y arrancar MySQL
 
