@@ -17,7 +17,9 @@ arranca el servicio Apache2 inmediatamente.
 ![Restart](img1.png)
 
 ## Verificar estado del servidor Apache
-sudo systemctl status apache2 
+`sudo systemctl status apache2` 
+
+Permite verificar rápidamente si el servidor web Apache2 está funcionando correctamente, mostrando información en tiempo real sobre su estado y procesos asociados.
 
 ![Install](image8.png)
 
