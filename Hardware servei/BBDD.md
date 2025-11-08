@@ -1,3 +1,29 @@
+## Descargar un archivo CSV desde portal OpenData
+
+`wget "https://opendata-ajuntament.barcelona.cat/data/dataset/[...]/download" -O educacio_bcn.csv`
+
+Este comando descarga el archivo y lo guarda como educacio_bcn.csv en el directorio actual.
+
+
+
+2. Visualizar las primeras líneas del archivo CSV
+Para ver rápidamente si el archivo se descargó correctamente y cómo es su contenido, utiliza el comando:
+
+bash
+head -5 educacio_bcn.csv
+Esto muestra las primeras 5 líneas del archivo, permitiéndote inspeccionar el formato y visualización de los datos.
+
+La captura enseña el uso de head -5 para revisar los primeros registros del fichero CSV descargado. Se observan algunos errores en los caracteres, típicos de un problema de codificación.
+
+3. Convertir el archivo CSV a UTF-8
+Si el archivo original está en otra codificación (por ejemplo, UTF-16), debes convertirlo para evitar problemas de lectura. Para ello, usa el comando:
+
+bash
+iconv -f UTF-16 -t UTF-8 ~/Baixades/educacio_bcn.csv -o ~/Baixades/educacio_bcn_utf8.csv
+Esto genera un nuevo archivo en UTF-8, listo para trabajar en la mayoría de aplicaciones y bases de datos.
+
+
+
 ## Instalar MySQL
 
 `sudo apt install mysql-server`
