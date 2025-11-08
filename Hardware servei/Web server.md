@@ -14,6 +14,6 @@ sudo systemctl status apache2
 ![Install](image8.png)
 
 ## Reiniciar Apache tras cambios de configuración
-sudo systemctl restart apache2
+`sudo systemctl restart apache2`
 
 ![Restart](image12.png)
