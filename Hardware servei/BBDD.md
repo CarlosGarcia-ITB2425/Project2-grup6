@@ -33,7 +33,7 @@ Revisa el estado del servicio para verificar si está activo y corriendo sin err
 
 Después de acceder, selecciona la base de datos y muestra las tablas disponibles:
 
-![Acceder](bchecker-p.png)
+![Acceder](bchecker%20-p.png)
 
 sql
 USE barcelona_educacio;
