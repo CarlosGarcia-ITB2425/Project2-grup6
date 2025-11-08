@@ -27,6 +27,29 @@ Revisa el estado del servicio para verificar si está activo y corriendo sin err
 
 <img width="1007" height="471" alt="image" src="https://github.com/user-attachments/assets/4b2c0261-b48c-401f-927b-cd08cfdfd38a" />
 
+## Acceder a MySQL y mostrar tablas de la base de datos
+
+`mysql -u bchecker -p`
+
+Después de acceder, selecciona la base de datos y muestra las tablas disponibles:
+
+![Acceder](bchecker-p.png)
+
+sql
+USE barcelona_educacio;
+SHOW TABLES;
+La imagen muestra el acceso a MySQL, el cambio a la base de datos barcelona_educacio y la lista de tablas existentes, donde aparece equipaments.
+
+Visualizar la estructura de la tabla equipaments
+sql
+DESCRIBE equipaments;
+La captura enseña la estructura de la tabla equipaments, mostrando cada campo, su tipo de datos, si permite NULL, si es clave primaria o secundaria, valores predeterminados y atributos extra.
+
+Consultar registros de la tabla equipaments
+sql
+SELECT * FROM equipaments LIMIT 10;
+Esta imagen muestra el resultado del comando SQL que extrae un máximo de 10 registros de la tabla equipaments, mostrando todas sus columnas y algunos datos de ejemplo.
+
 
 
 
