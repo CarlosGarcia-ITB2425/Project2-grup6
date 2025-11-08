@@ -1,11 +1,20 @@
-## Instalación de MySQL Server
-sudo apt install -y mysql-server
+#Instalar MySQL
+bash
+sudo apt install mysql-server
+Instala el servidor de bases de datos MySQL usando permisos de administrador. Si el paquete ya está instalado, el sistema lo notificará y mantendrá la versión más reciente.
 
-## Habilitar y arrancar servicio MySQL
-sudo systemctl enable --now mysql
+Habilitar y arrancar MySQL
+bash
+sudo systemctl enable mysql
+Configura MySQL para que se inicie automáticamente al encender el sistema.
 
-## Verificar estado de MySQL
-sudo systemctl status mysql --no-pager
+bash
+sudo systemctl start mysql
+Arranca el servicio MySQL inmediatamente.
 
-## Acceso a MySQL con usuario bchecker
-mysql -u bchecker -p
+La imagen muestra cómo habilitar y arrancar el servicio MySQL desde la terminal usando los comandos anteriores. El sistema confirma que MySQL se añadirá al arranque automático tras reiniciar y que el servicio se ha iniciado correctamente.
+
+Comprobar el estado de MySQL
+bash
+sudo systemctl status mysql
+Revisa el estado del servicio para verificar si está activo y corriendo sin errores.
