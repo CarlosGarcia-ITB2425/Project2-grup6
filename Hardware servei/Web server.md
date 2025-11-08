@@ -1,5 +1,6 @@
 ## Instalación de Apache2
-sudo apt install -y apache2
+`sudo apt install -y apache2`
+Instala el servidor web Apache2 de forma automática (sin pedir confirmación) usando permisos de administrador. Si ya está instalado, confirma que está actualizado.
 
 ![Install](image26.png)
 
