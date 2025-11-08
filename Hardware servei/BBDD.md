@@ -6,7 +6,7 @@ Instala el servidor de bases de datos MySQL usando permisos de administrador. Si
 
 ![Install](Install%20mysql.png)
 
-## Habilitar y arrancar MySQL
+## Habilitar MySQL
 
 `sudo systemctl enable mysql`
 
@@ -23,3 +23,6 @@ La imagen muestra cómo habilitar y arrancar el servicio MySQL desde la terminal
 `sudo systemctl status mysql`
 
 Revisa el estado del servicio para verificar si está activo y corriendo sin errores.
+
+<img width="1002" height="136" alt="image" src="https://github.com/user-attachments/assets/1c6134cf-c881-4eee-a006-8355065d8f54" />
+
