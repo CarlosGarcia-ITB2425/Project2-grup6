@@ -31,18 +31,21 @@ Revisa el estado del servicio para verificar si está activo y corriendo sin err
 
 `mysql -u bchecker -p`
 
-Después de acceder, selecciona la base de datos y muestra las tablas disponibles:
-
 ![Acceder](bchecker%20-p.png)
 
-sql
-USE barcelona_educacio;
-SHOW TABLES;
+Después de acceder, selecciona la base de datos y muestra las tablas disponibles:
+
+`USE barcelona_educacio;
+SHOW TABLES;`
+
 La imagen muestra el acceso a MySQL, el cambio a la base de datos barcelona_educacio y la lista de tablas existentes, donde aparece equipaments.
 
-Visualizar la estructura de la tabla equipaments
-sql
-DESCRIBE equipaments;
+## Visualizar la estructura de la tabla equipaments
+
+`DESCRIBE equipaments;`
+
+![Visualizar](describe.png)
+
 La captura enseña la estructura de la tabla equipaments, mostrando cada campo, su tipo de datos, si permite NULL, si es clave primaria o secundaria, valores predeterminados y atributos extra.
 
 Consultar registros de la tabla equipaments
