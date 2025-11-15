@@ -84,7 +84,7 @@ La captura enseña la estructura de la tabla equipaments, mostrando cada campo, 
 
 `SELECT * FROM equipaments LIMIT 10;`
 
-![Consultar](select.png)
+![Consultar](/Projecte2-grup6/Imagenes/select.png)
 
 Esta imagen muestra el resultado del comando SQL que extrae un máximo de 10 registros de la tabla equipaments, mostrando todas sus columnas y algunos datos de ejemplo.
 
