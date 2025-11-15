@@ -4,7 +4,7 @@
 
 Este comando descarga el archivo y lo guarda como educacio_bcn.csv en el directorio actual.
 
-![Descargar](Imagenes/wget.png)
+![Descargar](/Imagenes/wget.png)
 
 ## Visualizar las primeras líneas del archivo CSV
 
