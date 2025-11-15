@@ -20,7 +20,7 @@ Esto muestra las primeras 5 líneas del archivo, permitiéndote inspeccionar el 
 
 Esto genera un nuevo archivo en UTF-8, listo para trabajar en la mayoría de aplicaciones y bases de datos.
 
-![Generar](UTF8.png)
+![Generar](/Projecte2-grup6/Imagenes/UTF8.png)
 
 ## Instalar MySQL
 
@@ -28,7 +28,7 @@ Esto genera un nuevo archivo en UTF-8, listo para trabajar en la mayoría de apl
 
 Instala el servidor de bases de datos MySQL usando permisos de administrador. Si el paquete ya está instalado, el sistema lo notificará y mantendrá la versión más reciente.
 
-![Install](Install%20mysql.png)
+![Install](/Projecte2-grup6/Imagenes/Install%20mysql.png)
 
 ## Habilitar MySQL
 
@@ -57,13 +57,13 @@ Para importar datos desde archivos locales a MySQL usando sentencias como LOAD D
 
 `mysql -u bchecker -p --local-infile=1`
 
-![Importar](localinfile.png)
+![Importar](/Projecte2-grup6/Imagenes/localinfile.png)
 
 ## Acceder a MySQL y mostrar tablas de la base de datos
 
 `mysql -u bchecker -p`
 
-![Acceder](bchecker%20-p.png)
+![Acceder](/Projecte2-grup6/Imagenes/bchecker%20-p.png)
 
 Después de acceder, selecciona la base de datos y muestra las tablas disponibles:
 
@@ -76,7 +76,7 @@ La imagen muestra el acceso a MySQL, el cambio a la base de datos barcelona_educ
 
 `DESCRIBE equipaments;`
 
-![Visualizar](describe.png)
+![Visualizar](/Projecte2-grup6/Imagenes/describe.png)
 
 La captura enseña la estructura de la tabla equipaments, mostrando cada campo, su tipo de datos, si permite NULL, si es clave primaria o secundaria, valores predeterminados y atributos extra.
 
