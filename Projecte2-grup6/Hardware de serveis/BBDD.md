@@ -12,7 +12,7 @@ Este comando descarga el archivo y lo guarda como educacio_bcn.csv en el directo
 
 Esto muestra las primeras 5 líneas del archivo, permitiéndote inspeccionar el formato y visualización de los datos.
 
-![Mostrar](Imagenes/Head%20-5.png)
+![Mostrar](/Projecte2-grup6/Imagenes/Head%20-5.png)
 
 ## Convertir el archivo CSV a UTF-8
 
