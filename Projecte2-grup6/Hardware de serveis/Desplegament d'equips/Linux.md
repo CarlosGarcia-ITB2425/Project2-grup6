@@ -14,11 +14,21 @@ Añade el usuario al grupo "sudo" para permitirle ejecutar comandos administrati
 
 ![Permisosuser(Linux)](/Projecte2-grup6/Imagenes/Permisosuser(linux).png)
 
-## Instalar Apache2
+## Instalación y comprobación Apache2
 
 `sudo apt install apache2`
 
-Instala el servidor web Apache2 para alojar páginas web.
+`echo 'OK Apache ubuntu-cliente (bchecker)' | sudo tee /var/www/html/index.html`
+
+`sudo systemctl restart apache2 && systemctl status apache2 --no-pager`
+
+Esto sirve para reiniciar el servicio de Apache, personalizar la página principal y mostrar el estado actual del servicio.
+Puedes ver que Apache está activo (running) y no tiene errores graves.
+
+`curl -I http://192.168.121.244`
+
+Este comando comprueba que el servidor web está respondiendo correctamente a peticiones HTTP, mostrando un encabezado HTTP 200 OK.
+Indica que Apache y la página personalizada están funcionando, mostrando detalles técnicos del servidor y del archivo index.html.
 
 ![ConectandoApache(Linux)](/Projecte2-grup6/Imagenes/ConectandoApache(Linux).png)
 
