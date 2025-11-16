@@ -12,7 +12,7 @@ Crea el usuario "bchecker" y define sus datos básicos.
 
 Añade el usuario al grupo "sudo" para permitirle ejecutar comandos administrativos.
 
-![Permisosuser(Linux)](Permisosuser-linux.jpg)
+![Permisosuser(Linux)](/Projecte2-grup6/Imagenes/Permisosuser(Linux).png)
 
 ## Instalar Apache2
 
