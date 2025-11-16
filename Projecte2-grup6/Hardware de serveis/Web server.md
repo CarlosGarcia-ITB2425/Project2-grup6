@@ -1,9 +1,10 @@
 ## Actualizar y actualizar el sistema
 
-'sudo apt upgrade && sudo apt update'
+`sudo apt upgrade && sudo apt update`
+
 Actualiza la lista de paquetes e instala las versiones más recientes para evitar posibles problemas de compatibilidad.
 
-![sudo apt upgrade and update](/Projecte2-grup6/Imagenes/sudo apt upgrade and update.png)
+![sudo apt upgrade and update](/Projecte2-grup6/Imagenes/sudo%20apt%20upgrade%20and%20update.png)
 
 2. Instalar Apache2
 text
