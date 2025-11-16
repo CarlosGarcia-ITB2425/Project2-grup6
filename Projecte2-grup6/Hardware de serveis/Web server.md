@@ -10,7 +10,7 @@ Actualiza la lista de paquetes e instala las versiones más recientes para evita
 
 `sudo apt install apache2`
 
-Instala el servidor web Apache2 necesario para alojar páginas web en tu máquina.
+Instala el servidor web Apache2 necesario para alojar páginas web en la máquina.
 
 ![install apache2](/Projecte2-grup6/Imagenes/install%20apache2.png)
 
