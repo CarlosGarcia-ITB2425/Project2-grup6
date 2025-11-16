@@ -44,7 +44,7 @@ Prueba que Apache funciona accediendo a la IP del servidor desde el navegador.
 
 Verifica la conectividad entre distintos hosts de la red local.
 
-![Conectividad(Linux)](Conectividad-Linux.jpg)
+![Conectividad(Linux)](/Projecte2-grup6/Imagenes/Conectividad(Linux).png)
 
 ## Ver la IP y configuración de red
 
