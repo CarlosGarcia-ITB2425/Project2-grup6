@@ -42,13 +42,13 @@ Crea o edita el archivo principal de la página web dentro del directorio adecua
 
 ## Añadir contenido HTML a la página
 
-Escribe el contenido que se mostrará en tu página principal.
+Aqui se escribe el contenido que se mostrará en tu página principal.
 
 ![contenido html](/Projecte2-grup6/Imagenes/contenido%20html.png)
 
 ## Visualizar la página HTML en el navegador
 
-Abre tu navegador y accede a la dirección IP o localhost del servidor.
+Imagen de la página web en el navegador accediendo con la dirección IP del servidor.
 
 ![pagina html](/Projecte2-grup6/Imagenes/pagina%20html.png)
 
