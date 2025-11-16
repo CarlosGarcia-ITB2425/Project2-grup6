@@ -64,6 +64,8 @@ Configura los sitios que alojará Apache, editando o creando un archivo en los s
 
 Activa la configuración de tu sitio virtual (reemplaza tu_config.conf por el nombre real del archivo de configuración).
 
+![install a2nsite](/Projecte2-grup6/Imagenes/a2nsite.png)
+
 ## Reiniciar Apache2
 
 `sudo systemctl restart apache2`
@@ -78,7 +80,7 @@ Reinicia Apache2 para aplicar la nueva configuración de los sitios.
 
 Recarga la configuración de Apache2 para que los cambios en configuraciones menores surtan efecto sin un reinicio completo.
 
-![reload apache2](/Projecte2-grup6/Imagenes/reload%20apache2.png)
+![reload apache2](/Projecte2-grup6/Imagenes/reload%20apach2.png)
 
 ## Instalar módulo PHP para Apache2
 
@@ -104,7 +106,7 @@ Incluye funciones básicas de PHP para comprobar que el módulo está correctame
 
 ## Visualizar la página PHP en el navegador
 
-Abre tu navegador y accede a la ruta /info.php en tu servidor para comprobar la salida de PHP.
+Desde el navegador accede a la ruta /info.php en el servidor para comprobar la salida de PHP.
 
 ![pagina php](/Projecte2-grup6/Imagenes/pagina%20php.png)
 
