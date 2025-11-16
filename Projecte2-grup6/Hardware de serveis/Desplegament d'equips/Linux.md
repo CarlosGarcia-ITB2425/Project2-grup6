@@ -4,7 +4,7 @@
 
 Crea el usuario "bchecker" y define sus datos básicos.
 
-![adduserbchecker(Linux)](adduserbchecker.png) 
+![adduserbchecker(Linux)](/Projecte2-grup6/Imagenes/adduserbchecker.png) 
 
 ## Asignar permisos sudo a bchecker
 
@@ -26,7 +26,7 @@ Instala el servidor web Apache2 para alojar páginas web.
 
 Prueba que Apache funciona accediendo a la IP del servidor desde el navegador.
 
-![ConectandoApache(Linux)](ConectandoApache-Linux.jpg)
+![ConectandoApache(Linux)](ConectandoApache.png)
 
 ## Pruebas de conectividad con ping
 
