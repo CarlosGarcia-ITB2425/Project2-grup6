@@ -20,7 +20,7 @@ Añade el usuario al grupo "sudo" para permitirle ejecutar comandos administrati
 
 Instala el servidor web Apache2 para alojar páginas web.
 
-![ApacheFuncionando(Linux)](ApacheFuncionando-Linux.jpg)
+![ApacheFuncionando(Linux)](/Projecte2-grup6/Imagenes/ApacheFuncionando(Linux).png)
 
 ## Acceso a Apache desde navegador
 
