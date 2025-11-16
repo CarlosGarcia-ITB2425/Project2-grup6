@@ -5,37 +5,41 @@
 Visualiza la configuración y dirección IP del adaptador Ethernet.
 
 ![IP(Windows)](/Projecte2-grup6/Imagenes/IP(Windows).png)
-Consulta avanzada de red
-powershell
-ipconfig /all
+
+## Consulta avanzada de red
+
+`ipconfig /all`
+
 Muestra todos los detalles avanzados del adaptador de red, como gateway y DNS.
 
-text
-![ipa(windows)](ipa-windows.jpg)
-Creación de usuario bchecker en Windows
-Sin comando (interfaz gráfica).
+![ipa(windows)](/Projecte2-grup6/Imagenes/ipa(windows).png)
+
+## Creación de usuario bchecker en Windows
+
 Añade usuario local y define su contraseña en Configuración de Windows.
 
-text
-![CreandoUserBcheckeryusuariocreado(Windows)](CreandoUserBcheckeryusuariocreado-Windows.jpg)
-Instalación de Wireshark con Winget
-powershell
-winget install --id=WiresharkFoundation.Wireshark -e --source winget
+![CreandoUserBcheckeryusuariocreado(Windows)](/Projecte2-grup6/Imagenes/CreandoUserBcheckeryusuariocreado(Windows).png)
+
+## Instalación de Wireshark con Winget
+
+`winget install --id=WiresharkFoundation.Wireshark -e --source winget`
+
 Instala Wireshark fácilmente desde la terminal de Windows.
 
-text
-![InstallWitheshark(Windows)](InstallWitheshark-Windows.jpg)
-Test de conectividad con ping
-powershell
-ping <IPDestino>
+![InstallWitheshark(Windows)](/Projecte2-grup6/Imagenes/InstallWitheshark(Windows).png)
+
+## Test de conectividad con ping
+
+`ping <IPDestino>`
+
 Verifica conexión y latencia hacia otros hosts desde Windows.
 
-text
-![Conectividad(Windows)](Conectividad-Windows.jpg)
-Test de conectividad con varios hosts
-powershell
-ping <IPDestino>
+![Conectividad(Windows)](/Projecte2-grup6/Imagenes/Conectividad(Windows).png)
+
+## Test de conectividad con varios hosts
+
+`ping <IPDestino>`
+
 Ejecuta pruebas hacia diferentes hosts y observa la respuesta.
 
-text
-![Conecividad(Windows)](Conecividad-Windows.jpg)  
+![Conecividad(Windows)](/Projecte2-grup6/Imagenes/Conecividad(Windows).png)  
