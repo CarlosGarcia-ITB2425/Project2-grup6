@@ -4,7 +4,7 @@
 
 Crea el usuario "bchecker" y define sus datos básicos.
 
-![adduserbchecker(Linux)](adduserbchecker.jpg) 
+![adduserbchecker(Linux)](adduserbchecker.png) 
 
 ## Asignar permisos sudo a bchecker
 
