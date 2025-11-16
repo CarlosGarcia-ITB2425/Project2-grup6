@@ -52,7 +52,7 @@ Verifica la conectividad entre distintos hosts de la red local.
 
 Muestra la conf. de red y IP actual de la máquina.
 
-![Ip(Linux)](Ip-Linux.jpg)
+![Ip(Linux)](/Projecte2-grup6/Imagenes/Ip(Linux).png)
 
 ## Instalación y activación del servicio SSH
 
@@ -62,7 +62,7 @@ Muestra la conf. de red y IP actual de la máquina.
 
 Instala y activa el servicio SSH.
 
-![SSHacitvo(Linux)](SSHacitvo-Linux.jpg)
+![SSHacitvo(Linux)](/Projecte2-grup6/Imagenes/SSHacitvo(Linux).png)
 
 ## Generar clave SSH
 
@@ -70,7 +70,7 @@ Instala y activa el servicio SSH.
 
 Genera pares de claves ED25519 para autenticación segura por SSH.
 
-![SSHkey(Linux)](SSHkey-Linux.jpg)
+![SSHkey(Linux)](/Projecte2-grup6/Imagenes/SSHkey(Linux).png) 
 
 ## Actualizar e instalar OpenSSH Server
 
@@ -80,4 +80,4 @@ Genera pares de claves ED25519 para autenticación segura por SSH.
 
 Actualiza el sistema y luego instala OpenSSH Server.
 
-![UpdateyInstallSSH(Linux)](UpdateyInstallSSH-Linux.jpg)
+![UpdateyInstallSSH(Linux)](/Projecte2-grup6/Imagenes/UpdateyInstallSSH(Linux).png)
