@@ -10,9 +10,10 @@ Instala el servicio DNS BIND9 y las utilidades necesarias para la gestión del s
 
 ## Copiar archivos de configuración base
 
-sudo cp /etc/bind/db.local /etc/bind/db.midominio.local
+`sudo cp /etc/bind/db.local /etc/bind/db.midominio.local`
+
 Se copia el archivo de zona de ejemplo para crear la zona de tu dominio.
-![Copiar archivo db.local]​
+![Copiar archivo db.local](Projecte2-grup6/Imagenes/sudo%20cp%20db.png)​
 
 Crear y editar archivo de zona inversa
 bash
