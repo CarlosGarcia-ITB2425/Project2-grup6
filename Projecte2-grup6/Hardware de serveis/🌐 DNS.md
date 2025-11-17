@@ -13,7 +13,9 @@ Instala el servicio DNS BIND9 y las utilidades necesarias para la gestión del s
 
 Se copia el archivo de zona de ejemplo para crear la zona de tu dominio.
 
-![Copiar archivo db.local](/Projecte2-grup6/Imagenes/sudo%20cp%20db.png)​
+![Copiar archivo db.local](/Projecte2-grup6/Imagenes/sudo%20cp%20db.png)
+
+---​
 
 ## Crear y editar archivo de zona inversa
 
@@ -25,9 +27,13 @@ Se crea y edita el archivo de zona inversa para la red interna.
 
 ![Copiar y editar archivo de zona inversa](/Projecte2-grup6/Imagenes/sudo%20cp2.png)
 
+---
+
 Aquí se definen los registros PTR para la resolución inversa:
 
 ![Editar archivo de zona inversa](/Projecte2-grup6/Imagenes/bind%20db.png)
+
+---
 ​
 ## Comprobar la configuración
 
