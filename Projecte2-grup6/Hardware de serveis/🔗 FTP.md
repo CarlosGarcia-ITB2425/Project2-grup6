@@ -6,7 +6,7 @@ Crea el usuario ftpuser que utilizarás para el acceso FTP, asegurándote de usa
 
 ![Crear usuario FTP](/Projecte2-grup6/Imagenes/user%20ftp.png)
 
----​
+- - -
 
 ## Crear directorios y asignar permisos
 
