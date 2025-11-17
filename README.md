@@ -4,27 +4,27 @@ El proyecto Project2-grup6 es una iniciativa académica cuyo propósito es dise�
 
 ## Infraestructura de red
 
-Se plantea un router que segmenta la red en al menos tres zonas (como DMZ, Intranet y NAT), lo cual es común en redes seguras:
+- Se plantea un router que segmenta la red en al menos tres zonas (como DMZ, Intranet y NAT), lo cual es común en redes seguras:
 
-DMZ (zona desmilitarizada): para servicios accesibles desde el exterior.
+- DMZ (zona desmilitarizada): para servicios accesibles desde el exterior.
 
-Intranet interna: para comunicaciones seguras y privadas.
+- Intranet interna: para comunicaciones seguras y privadas.
 
-Zona NAT: para gestión de direcciones y control de tráfico saliente.
+- Zona NAT: para gestión de direcciones y control de tráfico saliente.
 
-Sobre esta topología de red se despliegan múltiples servidores, cada uno con su rol específico:
+- Sobre esta topología de red se despliegan múltiples servidores, cada uno con su rol específico:
 
-Servidor web: para alojar la aplicación de visualización.
+- Servidor web: para alojar la aplicación de visualización.
 
-Servidor MySQL: base de datos donde se importa un CSV con datos reales.
+- Servidor MySQL: base de datos donde se importa un CSV con datos reales.
 
-Servidor SSH: para acceso seguro y administración remota.
+- Servidor SSH: para acceso seguro y administración remota.
 
-Servidor DNS: gestionando nombres de dominio internos.
+- Servidor DNS: gestionando nombres de dominio internos.
 
-Servidor DHCP: asignación automática de IPs en la red.
+- Servidor DHCP: asignación automática de IPs en la red.
 
-Servidor FTP: para transferencia de ficheros, posiblemente para subir datos o backups.
+- Servidor FTP: para transferencia de ficheros, posiblemente para subir datos o backups.
 
 Además, se configuran dos clientes finales: uno con Windows y otro con Linux, que permiten probar la conectividad, el acceso a los servicios y la aplicación desde extremos distintos.
 
