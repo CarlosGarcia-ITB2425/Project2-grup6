@@ -53,7 +53,7 @@ Datos.gob.es
 
 - Desde el punto de vista educativo, este proyecto es muy completo: obliga a los participantes a trabajar con aspectos de red (segmentación, zonas seguras), servicios de infraestructura (DHCP, DNS, FTP, SSH) y persistencia de datos (MySQL), además de una capa de aplicación que consume datos reales.
 
--Permite ver cómo los datos abiertos (como los del Ayuntamiento de Barcelona) pueden usarse en proyectos técnicos reales, dando sentido práctico al uso de CSV públicos.
+- Permite ver cómo los datos abiertos (como los del Ayuntamiento de Barcelona) pueden usarse en proyectos técnicos reales, dando sentido práctico al uso de CSV públicos.
 
 - Al desplegar clientes Windows y Linux, el equipo aprende a manejar interoperabilidad y a probar servicios en distintos entornos.
 
