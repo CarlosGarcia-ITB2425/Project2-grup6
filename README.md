@@ -30,34 +30,34 @@ Además, se configuran dos clientes finales: uno con Windows y otro con Linux, q
 
 ## Datos y aplicación
 
-El proyecto utiliza un archivo CSV con el listado de equipamientos educativos de Barcelona, que proviene de datos abiertos. Este tipo de datos reflejan centros educativos, equipamientos asociados, y su distribución territorial. 
+- El proyecto utiliza un archivo CSV con el listado de equipamientos educativos de Barcelona, que proviene de datos abiertos. Este tipo de datos reflejan centros educativos, equipamientos asociados, y su distribución territorial. 
 Datos.gob.es
 
-Dicho CSV se importa en la base de datos MySQL, creando una o varias tablas con los distintos campos del fichero (nombre del equipamiento, tipo, ubicación, etc.).
+- Dicho CSV se importa en la base de datos MySQL, creando una o varias tablas con los distintos campos del fichero (nombre del equipamiento, tipo, ubicación, etc.).
 
-Sobre esos datos, se desarrolla una aplicación web ligera que permite visualizar el contenido de la base de datos, mostrando los equipamientos educativos cargados y ofreciendo, posiblemente, filtros o consultas por diferentes criterios.
+- Sobre esos datos, se desarrolla una aplicación web ligera que permite visualizar el contenido de la base de datos, mostrando los equipamientos educativos cargados y ofreciendo, posiblemente, filtros o consultas por diferentes criterios.
 
-De este modo, el sistema no solo demuestra la infraestructura de red, sino también el ciclo completo de datos: adquisición (CSV), almacenamiento (MySQL) y presentación (aplicación web).
+- De este modo, el sistema no solo demuestra la infraestructura de red, sino también el ciclo completo de datos: adquisición (CSV), almacenamiento (MySQL) y presentación (aplicación web).
 
 ## Organización y metodología
 
-El proyecto está organizado por sprints, lo que indica un enfoque ágil: se divide el trabajo en varias fases (posiblemente tres sprints), cada uno con tareas específicas para desplegar la red, montar los servidores y desarrollar la aplicación.
+- El proyecto está organizado por sprints, lo que indica un enfoque ágil: se divide el trabajo en varias fases (posiblemente tres sprints), cada uno con tareas específicas para desplegar la red, montar los servidores y desarrollar la aplicación.
 
-El control de versiones se realiza mediante Git, manteniendo todo el despliegue, los scripts y la documentación en un repositorio (el que has compartido). Esto permite trazabilidad, colaboración y respaldo coherente.
+- El control de versiones se realiza mediante Git, manteniendo todo el despliegue, los scripts y la documentación en un repositorio (el que has compartido). Esto permite trazabilidad, colaboración y respaldo coherente.
 
-También se menciona el uso de autenticación por clave pública/privada (SSH), lo cual mejora la seguridad en el acceso a los servidores.
+- También se menciona el uso de autenticación por clave pública/privada (SSH), lo cual mejora la seguridad en el acceso a los servidores.
 
-Se usa un usuario predefinido (bchecker) con contraseña (bchecker121) en todos los sistemas, lo que facilita la configuración y pruebas en entorno controlado.
+- Se usa un usuario predefinido (bchecker) con contraseña (bchecker121) en todos los sistemas, lo que facilita la configuración y pruebas en entorno controlado.
 
 ## Valor formativo y beneficios
 
-Desde el punto de vista educativo, este proyecto es muy completo: obliga a los participantes a trabajar con aspectos de red (segmentación, zonas seguras), servicios de infraestructura (DHCP, DNS, FTP, SSH) y persistencia de datos (MySQL), además de una capa de aplicación que consume datos reales.
+- Desde el punto de vista educativo, este proyecto es muy completo: obliga a los participantes a trabajar con aspectos de red (segmentación, zonas seguras), servicios de infraestructura (DHCP, DNS, FTP, SSH) y persistencia de datos (MySQL), además de una capa de aplicación que consume datos reales.
 
-Permite ver cómo los datos abiertos (como los del Ayuntamiento de Barcelona) pueden usarse en proyectos técnicos reales, dando sentido práctico al uso de CSV públicos.
+-Permite ver cómo los datos abiertos (como los del Ayuntamiento de Barcelona) pueden usarse en proyectos técnicos reales, dando sentido práctico al uso de CSV públicos.
 
-Al desplegar clientes Windows y Linux, el equipo aprende a manejar interoperabilidad y a probar servicios en distintos entornos.
+- Al desplegar clientes Windows y Linux, el equipo aprende a manejar interoperabilidad y a probar servicios en distintos entornos.
 
-El hecho de documentar todo y trabajar con Git promueve buenas prácticas de ingeniería de software, versionado y colaboración.
+- El hecho de documentar todo y trabajar con Git promueve buenas prácticas de ingeniería de software, versionado y colaboración.
 
 ## Resultado esperado
 
