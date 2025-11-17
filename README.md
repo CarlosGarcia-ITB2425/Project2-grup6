@@ -72,3 +72,7 @@ La aplicación web permite consultar y visualizar esos equipamientos de forma cl
 Los clientes (Windows y Linux) pueden acceder a los servicios (web, FTP, SSH, etc.).
 
 La infraestructura es reproducible (documentada) y segura (uso de SSH, control de acceso), aunque el usuario bchecker y su contraseña se usen solo para desarrollo.
+
+## Diagrama de red
+
+![install apache2](/Projecte2-grup6/Imagenes/install%20apache2.png)
