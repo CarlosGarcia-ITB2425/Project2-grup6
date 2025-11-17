@@ -75,4 +75,4 @@ La infraestructura es reproducible (documentada) y segura (uso de SSH, control d
 
 ## Diagrama de red
 
-![install apache2](/Projecte2-grup6/Imagenes/install%20apache2.png)
+![install apache2](/Projecte2-grup6/Imagenes/diagrama.png)
