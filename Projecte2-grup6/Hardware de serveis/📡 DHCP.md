@@ -32,4 +32,4 @@ subnet 192.168.16.0 netmask 255.255.255.0 {
 ```
 ```
 
-Así todo aparece formateado como bloques de código, igual que en la terminal, y puedes copiar y pegarlo en tu Markdown.[2][3][5][6]
+
