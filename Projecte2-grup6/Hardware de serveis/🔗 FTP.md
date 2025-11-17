@@ -6,7 +6,6 @@ Crea el usuario ftpuser que utilizarás para el acceso FTP, asegurándote de usa
 
 ![Crear usuario FTP](/Projecte2-grup6/Imagenes/user%20ftp.png)
 
-- - -
 
 ## Crear directorios y asignar permisos
 
@@ -18,7 +17,6 @@ Estos comandos crean la estructura de carpetas para el usuario FTP y le asignan 
 
 ![Crear directorios y asignar permisos](/Projecte2-grup6/Imagenes/ftp%20mkdir.png)
 
-- - -
 ​
 ## Configurar la lista de usuarios permitidos
 
@@ -28,7 +26,6 @@ Asegúrate de añadir tu usuario a la lista de permitidos en el archivo de confi
 
 ![Añadir usuario permitido](/Projecte2-grup6/Imagenes/usuario%20ftp.png)
 
-- - -​
 
 ## Realizar copia de seguridad del archivo de configuración
 
@@ -38,7 +35,6 @@ Antes de modificar la configuración, crea una copia de respaldo del archivo ori
 
 ![Backup configuración](/Projecte2-grup6/Imagenes/sudoi%20cp.png)
 
-- - -
 
 ## Configurar el cortafuegos para FTP
 
@@ -50,7 +46,6 @@ Abre el puerto estándar 21 y el rango de puertos pasivos para FTP en el firewal
 
 ![Firewall FTP](/Projecte2-grup6/Imagenes/ftp%20allow.png)
 
-- - -
 
 ## Reiniciar el servicio y comprobar estado
 
