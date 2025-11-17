@@ -27,7 +27,6 @@ Se crea y edita el archivo de zona inversa para la red interna.
 
 ![Copiar y editar archivo de zona inversa](/Projecte2-grup6/Imagenes/sudo%20cp2.png)
 
----
 
 Aquí se definen los registros PTR para la resolución inversa:
 
