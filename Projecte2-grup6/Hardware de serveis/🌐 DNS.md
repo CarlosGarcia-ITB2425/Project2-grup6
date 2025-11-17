@@ -5,7 +5,7 @@
 
 Instala el servicio DNS BIND9 y las utilidades necesarias para la gestión del servidor de nombres.
 
-![Instalación de BIND9](/Projecte2/Imagenes/instalacion%20de%20dns.png)
+![Instalación de BIND9](/Projecte2-grup6/Imagenes/instalacion%20de%20dns.png)
 ​
 ## Copiar archivos de configuración base
 
