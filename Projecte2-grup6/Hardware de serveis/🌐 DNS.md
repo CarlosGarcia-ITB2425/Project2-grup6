@@ -23,7 +23,7 @@ Crear y editar archivo de zona inversa
 
 Se crea y edita el archivo de zona inversa para la red interna.
 
-![Copiar y editar archivo de zona inversa]​(/Projecte2-grup6/Imagenes/sudo%20cp%20db.png)
+![Copiar y editar archivo de zona inversa]​(/Projecte2-grup6/Imagenes/.png)
 
 Aquí se definen los registros PTR para la resolución inversa:
 ![Editar archivo de zona inversa]​
