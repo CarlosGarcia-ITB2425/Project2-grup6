@@ -7,8 +7,6 @@ Instala el servicio DNS BIND9 y las utilidades necesarias para la gestión del s
 
 ![Instalación de BIND9](/Projecte2/Imagenes/instalacion%20de%20dns.png)
 ​
-![Instalación de BIND9 parte 2]​
-
 ## Copiar archivos de configuración base
 
 `sudo cp /etc/bind/db.local /etc/bind/db.midominio.local`
@@ -32,8 +30,12 @@ Aquí se definen los registros PTR para la resolución inversa:
 
 Comprobar la configuración
 bash
-sudo named-checkconf
-sudo named-checkzone midominio.local /etc/bind/db.midominio.local
-sudo named-checkzone 6.168.192.in-addr.arpa /etc/bind/db.192.168.6
+`sudo named-checkconf`
+
+`sudo named-checkzone midominio.local /etc/bind/db.midominio.local`
+
+`sudo named-checkzone 6.168.192.in-addr.arpa /etc/bind/db.192.168.6`
+
 Se emplean los comandos para verificar que la sintaxis de la configuración y los archivos de zona sean correctos antes de reiniciar el servicio DNS.
+
 ![Comprobación de archivos de zona]​
