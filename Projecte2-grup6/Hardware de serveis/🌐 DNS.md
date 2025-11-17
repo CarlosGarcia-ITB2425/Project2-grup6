@@ -1,19 +1,15 @@
-## Actualizar y actualizar el sistema
 
-sudo apt update && sudo apt upgrade`
+## Instalar BIND9 y utilidades
 
-Actualiza la lista de paquetes e instala las versiones más recientes para evitar posibles problemas de compatibilidad.
-![Actualización del sistema]​
+`sudo apt install bind9 bind9utils -y`
 
-Instalar BIND9 y utilidades
-bash
-sudo apt install bind9 bind9utils -y
 Instala el servicio DNS BIND9 y las utilidades necesarias para la gestión del servidor de nombres.
+
 ![Instalación de BIND9]​
 ![Instalación de BIND9 parte 2]​
 
-Copiar archivos de configuración base
-bash
+## Copiar archivos de configuración base
+
 sudo cp /etc/bind/db.local /etc/bind/db.midominio.local
 Se copia el archivo de zona de ejemplo para crear la zona de tu dominio.
 ![Copiar archivo db.local]​
