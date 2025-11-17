@@ -1,8 +1,8 @@
-Resumen del proyecto
+### Resumen del proyecto
 
 El proyecto Project2-grup6 es una iniciativa académica cuyo propósito es diseñar, desplegar y gestionar una infraestructura de red multicapa realista (router + varias subredes) junto con una aplicación de visualización de datos. Se trata de simular un entorno profesional donde confluyen aspectos de redes, servidores y bases de datos, además de una capa de aplicación que consume datos reales.
 
-Infraestructura de red
+## Infraestructura de red
 
 Se plantea un router que segmenta la red en al menos tres zonas (como DMZ, Intranet y NAT), lo cual es común en redes seguras:
 
@@ -28,7 +28,7 @@ Servidor FTP: para transferencia de ficheros, posiblemente para subir datos o ba
 
 Además, se configuran dos clientes finales: uno con Windows y otro con Linux, que permiten probar la conectividad, el acceso a los servicios y la aplicación desde extremos distintos.
 
-Datos y aplicación
+## Datos y aplicación
 
 El proyecto utiliza un archivo CSV con el listado de equipamientos educativos de Barcelona, que proviene de datos abiertos. Este tipo de datos reflejan centros educativos, equipamientos asociados, y su distribución territorial. 
 Datos.gob.es
@@ -39,7 +39,7 @@ Sobre esos datos, se desarrolla una aplicación web ligera que permite visualiza
 
 De este modo, el sistema no solo demuestra la infraestructura de red, sino también el ciclo completo de datos: adquisición (CSV), almacenamiento (MySQL) y presentación (aplicación web).
 
-Organización y metodología
+## Organización y metodología
 
 El proyecto está organizado por sprints, lo que indica un enfoque ágil: se divide el trabajo en varias fases (posiblemente tres sprints), cada uno con tareas específicas para desplegar la red, montar los servidores y desarrollar la aplicación.
 
@@ -49,7 +49,7 @@ También se menciona el uso de autenticación por clave pública/privada (SSH), 
 
 Se usa un usuario predefinido (bchecker) con contraseña (bchecker121) en todos los sistemas, lo que facilita la configuración y pruebas en entorno controlado.
 
-Valor formativo y beneficios
+## Valor formativo y beneficios
 
 Desde el punto de vista educativo, este proyecto es muy completo: obliga a los participantes a trabajar con aspectos de red (segmentación, zonas seguras), servicios de infraestructura (DHCP, DNS, FTP, SSH) y persistencia de datos (MySQL), además de una capa de aplicación que consume datos reales.
 
@@ -59,7 +59,7 @@ Al desplegar clientes Windows y Linux, el equipo aprende a manejar interoperabil
 
 El hecho de documentar todo y trabajar con Git promueve buenas prácticas de ingeniería de software, versionado y colaboración.
 
-Resultado esperado
+## Resultado esperado
 
 Cuando el proyecto esté completado, se debe tener un entorno funcional donde:
 
