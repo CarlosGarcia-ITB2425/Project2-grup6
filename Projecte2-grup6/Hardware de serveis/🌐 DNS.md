@@ -1,1 +1,36 @@
+## Actualizar y actualizar el sistema
 
+sudo apt update && sudo apt upgrade`
+
+Actualiza la lista de paquetes e instala las versiones más recientes para evitar posibles problemas de compatibilidad.
+![Actualización del sistema]​
+
+Instalar BIND9 y utilidades
+bash
+sudo apt install bind9 bind9utils -y
+Instala el servicio DNS BIND9 y las utilidades necesarias para la gestión del servidor de nombres.
+![Instalación de BIND9]​
+![Instalación de BIND9 parte 2]​
+
+Copiar archivos de configuración base
+bash
+sudo cp /etc/bind/db.local /etc/bind/db.midominio.local
+Se copia el archivo de zona de ejemplo para crear la zona de tu dominio.
+![Copiar archivo db.local]​
+
+Crear y editar archivo de zona inversa
+bash
+sudo cp /etc/bind/db.127 /etc/bind/db.192.168.6
+sudo nano /etc/bind/db.192.168.6
+Se crea y edita el archivo de zona inversa para la red interna.
+![Copiar y editar archivo de zona inversa]​
+Aquí se definen los registros PTR para la resolución inversa:
+![Editar archivo de zona inversa]​
+
+Comprobar la configuración
+bash
+sudo named-checkconf
+sudo named-checkzone midominio.local /etc/bind/db.midominio.local
+sudo named-checkzone 6.168.192.in-addr.arpa /etc/bind/db.192.168.6
+Se emplean los comandos para verificar que la sintaxis de la configuración y los archivos de zona sean correctos antes de reiniciar el servicio DNS.
+![Comprobación de archivos de zona]​
