@@ -27,7 +27,7 @@ Se crea y edita el archivo de zona inversa para la red interna.
 
 Aquí se definen los registros PTR para la resolución inversa:
 
-![Editar archivo de zona inversa](bind%20db.png)
+![Editar archivo de zona inversa](/Projecte2-grup6/Imagenes/bind%20db.png)
 ​
 ## Comprobar la configuración
 
