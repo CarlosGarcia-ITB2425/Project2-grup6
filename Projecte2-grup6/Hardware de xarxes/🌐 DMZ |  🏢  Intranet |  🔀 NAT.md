@@ -1,3 +1,7 @@
+## Diagrama de xarxa
+
+![Diagrama](/Projecte2-grup6/Imagenes/diagrama1.png)
+
 ## Configuración Netplan
 
 `sudo nano /etc/netplan/00-installer-config.yaml`
