@@ -14,8 +14,8 @@ Crea el usuario ftpuser que utilizarás para el acceso FTP, asegurándote de usa
 
 Estos comandos crean la estructura de carpetas para el usuario FTP y le asignan la propiedad.​
 
-![Directorio y permisos]​
-
+![Directorio y permisos]![Crear directorios y asignar permisos](/Projecte2-grup6/Imagenes/ftp%20mkdir.png)
+​
 ## Configurar la lista de usuarios permitidos
 
 `echo "ftpuser" | sudo tee -a /etc/vsftpd.userlist`
