@@ -61,18 +61,16 @@ El hecho de documentar todo y trabajar con Git promueve buenas prácticas de ing
 
 ## Resultado esperado
 
-Cuando el proyecto esté completado, se debe tener un entorno funcional donde:
+1. Cuando el proyecto esté completado, se debe tener un entorno funcional donde:
 
-La red está correctamente segmentada, y los servicios se comunican según lo previsto entre distintas zonas.
+2. La red está correctamente segmentada, y los servicios se comunican según lo previsto entre distintas zonas.
 
-El CSV con equipamientos educativos de Barcelona está importado en la base de datos.
+3. El CSV con equipamientos educativos de Barcelona está importado en la base de datos.
 
-La aplicación web permite consultar y visualizar esos equipamientos de forma clara y usable.
+4. La aplicación web permite consultar y visualizar esos equipamientos de forma clara y usable.
 
-Los clientes (Windows y Linux) pueden acceder a los servicios (web, FTP, SSH, etc.).
+5. Los clientes (Windows y Linux) pueden acceder a los servicios (web, FTP, SSH, etc.).
 
-La infraestructura es reproducible (documentada) y segura (uso de SSH, control de acceso), aunque el usuario bchecker y su contraseña se usen solo para desarrollo.
+6. La infraestructura es reproducible (documentada) y segura (uso de SSH, control de acceso), aunque el usuario bchecker y su contraseña se usen solo para desarrollo.
 
-## Diagrama de red
 
-![Diagrama de red](/Projecte2-grup6/Imagenes/diagrama.png)
