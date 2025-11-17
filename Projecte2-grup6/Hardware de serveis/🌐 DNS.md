@@ -15,7 +15,7 @@ Se copia el archivo de zona de ejemplo para crear la zona de tu dominio.
 
 ![Copiar archivo db.local](/Projecte2-grup6/Imagenes/sudo%20cp%20db.png)
 
----​
+---
 
 ## Crear y editar archivo de zona inversa
 
