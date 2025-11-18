@@ -1,6 +1,6 @@
 # Resumen del proyecto
 
-##Hardware de serveis
+## Hardware de serveis
 
 1. [Hardware de serveis.md](Projecte2-grup6/Hardware%20de%20serveis)
 
