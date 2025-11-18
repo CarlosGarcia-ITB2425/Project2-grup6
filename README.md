@@ -1,23 +1,27 @@
-# [Pàgina principal.md](Projecte2-grup6)
+# 🏠[Pàgina principal.md](Projecte2-grup6)
 
-## 1. [Hardware de serveis](Projecte2-grup6/Hardware%20de%20serveis)
+## 1.🖥️ [Hardware de serveis](Projecte2-grup6/Hardware%20de%20serveis)
 
-   - [BBDD](Projecte2-grup6/Hardware%20de%20serveis/BBDD.md)
-   - [DHCP](Projecte2-grup6/Hardware%20de%20serveis/DHCP.md)
-   - [DNS](Projecte2-grup6/Hardware%20de%20serveis/DNS.md)
-   - [FTP](Projecte2-grup6/Hardware%20de%20serveis/FTP.md)
-   - [SSH](Projecte2-grup6/Hardware%20de%20serveis/SSH.md)
-   - [Web server](Projecte2-grup6/Hardware%20de%20serveis/Web%20server.md)
+Esta sección agrupa la documentación sobre el despliegue y configuración de todos los servicios esenciales del proyecto.
+
+   - [BBDD💾](Projecte2-grup6/Hardware%20de%20serveis/BBDD.md)
+   - [DHCP📍](Projecte2-grup6/Hardware%20de%20serveis/DHCP.md)
+   - [DNS🌐](Projecte2-grup6/Hardware%20de%20serveis/DNS.md)
+   - [FTP📤](Projecte2-grup6/Hardware%20de%20serveis/FTP.md)
+   - [SSH🛡️](Projecte2-grup6/Hardware%20de%20serveis/SSH.md)
+   - [Web server🌍](Projecte2-grup6/Hardware%20de%20serveis/Web%20server.md)
 
    ### 1.1 [Desplegament d'equips](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips)
 
-   - [Linux](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips/Linux.md)
+   Documentación sobre los sistemas operativos cliente utilizados para las pruebas.
 
-   - [Windows](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips/Windows.md)
+   - [Linux🐧](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips/Linux.md)
 
-## 2. [Hardware de xarxes](Projecte2-grup6/Hardware%20de%20xarxes)
+   - [Windows🪟](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips/Windows.md)
+
+## 2.📡 [Hardware de xarxes](Projecte2-grup6/Hardware%20de%20xarxes)
    
- - [DMZ-Intranet-NAT](Projecte2-grup6/Hardware%20de%20xarxes/Xarxes.md)
+ - [DMZ-Intranet-NAT🚦](Projecte2-grup6/Hardware%20de%20xarxes/Xarxes.md)
 
 
 
