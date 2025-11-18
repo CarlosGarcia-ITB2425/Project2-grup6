@@ -42,6 +42,8 @@ Además, se configuran dos clientes finales: uno con Windows y otro con Linux, q
 
 ## Datos y aplicación
 
+---
+
 - El proyecto utiliza un archivo CSV con el listado de equipamientos educativos de Barcelona, que proviene de datos abiertos. Este tipo de datos reflejan centros educativos, equipamientos asociados, y su distribución territorial. 
 Datos.gob.es
 
@@ -53,6 +55,8 @@ Datos.gob.es
 
 ## Organización y metodología
 
+---
+
 - El proyecto está organizado por sprints, lo que indica un enfoque ágil: se divide el trabajo en varias fases (posiblemente tres sprints), cada uno con tareas específicas para desplegar la red, montar los servidores y desarrollar la aplicación.
 
 - El control de versiones se realiza mediante Git, manteniendo todo el despliegue, los scripts y la documentación en un repositorio (el que has compartido). Esto permite trazabilidad, colaboración y respaldo coherente.
@@ -63,6 +67,8 @@ Datos.gob.es
 
 ## Valor formativo y beneficios
 
+---
+
 - Desde el punto de vista educativo, este proyecto es muy completo: obliga a los participantes a trabajar con aspectos de red (segmentación, zonas seguras), servicios de infraestructura (DHCP, DNS, FTP, SSH) y persistencia de datos (MySQL), además de una capa de aplicación que consume datos reales.
 
 - Permite ver cómo los datos abiertos (como los del Ayuntamiento de Barcelona) pueden usarse en proyectos técnicos reales, dando sentido práctico al uso de CSV públicos.
@@ -72,6 +78,8 @@ Datos.gob.es
 - El hecho de documentar todo y trabajar con Git promueve buenas prácticas de ingeniería de software, versionado y colaboración.
 
 ## Resultado esperado
+
+---
 
 1. Cuando el proyecto esté completado, se debe tener un entorno funcional donde:
 
