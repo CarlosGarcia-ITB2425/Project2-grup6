@@ -1,4 +1,4 @@
-[Linux.md](Hardware%20de%20serveis/Desplegament%20d'equips/🐧Linux.md)
+[Linux.md](Hardware%20de%20serveis/Desplegament%20d'equips/🐧%20Linux.md)
 
 # Resumen del proyecto
 
