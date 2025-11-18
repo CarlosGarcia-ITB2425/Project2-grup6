@@ -15,7 +15,9 @@
 
    - [Windows.md](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips/Windows.md)
 
-2.[Hardware de xarxes](Projecte2-grup6/Hardware%20de%20xarxes)
+2. [Hardware de xarxes](Projecte2-grup6/Hardware%20de%20xarxes)
+   
+      - [DMZ-Intranet-NAT.md](Projecte2-grup6/Hardware%20de%20xarxes/DMZ-Intranet-NAT.md)
 
 
 
