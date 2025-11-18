@@ -5,7 +5,7 @@
 
     - [BBDD.md](Projecte2-grup6/Hardware%20de%20serveis/BBDD.md)
 
- 1.1 [Desplegament d'equips.md](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips)
+1.1 [Desplegament d'equips.md](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips)
 
    - [Linux.md](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips/Linux.md)
 
