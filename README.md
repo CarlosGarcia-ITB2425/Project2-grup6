@@ -1,6 +1,6 @@
-### [Pàgina principal.md](Projecte2-grup6)
+## [Pàgina principal.md](Projecte2-grup6)
 
-1. [Hardware de serveis](Projecte2-grup6/Hardware%20de%20serveis)
+### 1. [Hardware de serveis](Projecte2-grup6/Hardware%20de%20serveis)
 
    - [BBDD.md](Projecte2-grup6/Hardware%20de%20serveis/BBDD.md)
    - [DHCP.md](Projecte2-grup6/Hardware%20de%20serveis/DHCP.md)
@@ -15,9 +15,9 @@
 
    - [Windows.md](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips/Windows.md)
 
-2. [Hardware de xarxes](Projecte2-grup6/Hardware%20de%20xarxes)
+### 2. [Hardware de xarxes](Projecte2-grup6/Hardware%20de%20xarxes)
    
-      - [DMZ-Intranet-NAT.md](Projecte2-grup6/Hardware%20de%20xarxes/DMZ-Intranet-NAT.md)
+ - [DMZ-Intranet-NAT.md](Projecte2-grup6/Hardware%20de%20xarxes/DMZ-Intranet-NAT.md)
 
 
 
