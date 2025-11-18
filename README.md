@@ -3,6 +3,11 @@
 1. [Hardware de serveis](Projecte2-grup6/Hardware%20de%20serveis)
 
    - [BBDD.md](Projecte2-grup6/Hardware%20de%20serveis/BBDD.md)
+   - [DHCP.md](Projecte2-grup6/Hardware%20de%20serveis/DHCP.md)
+   - [DNS.md](Projecte2-grup6/Hardware%20de%20serveis/DNS.md)
+   - [FTP.md](Projecte2-grup6/Hardware%20de%20serveis/FTP.md)
+   - [SSH.md](Projecte2-grup6/Hardware%20de%20serveis/SSH.md)
+   - [Web server.md](Projecte2-grup6/Hardware%20de%20serveis/Web%20server.md)
 
    1.1 [Desplegament d'equips.md](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips)
 
