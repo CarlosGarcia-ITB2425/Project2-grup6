@@ -1,9 +1,9 @@
 
-# [Pàgina principal.md](Projecte2-grup6)
+### [Pàgina principal.md](Projecte2-grup6)
 
-### [Hardware de serveis.md](Projecte2-grup6/Hardware%20de%20serveis)
+1. [Hardware de serveis.md](Projecte2-grup6/Hardware%20de%20serveis)
 
-   #### [Desplegament d'equips.md](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips)
+   1.1 [Desplegament d'equips.md](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips)
 
       - [Linux.md](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips/Linux.md)
 
