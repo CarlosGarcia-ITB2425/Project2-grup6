@@ -11,7 +11,9 @@
 # Resumen del proyecto
 
 El proyecto Project2-grup6 es una iniciativa académica cuyo propósito es diseñar, desplegar y gestionar una infraestructura de red multicapa realista (router + varias subredes) junto con una aplicación de visualización de datos. Se trata de simular un entorno profesional donde confluyen aspectos de redes, servidores y bases de datos, además de una capa de aplicación que consume datos reales.
+
 ---
+
 ## Infraestructura de red
 
 - Se plantea un router que segmenta la red en al menos tres zonas (como DMZ, Intranet y NAT), lo cual es común en redes seguras:
