@@ -1,4 +1,4 @@
-[Linux.md](Hardware%20de%20serveis/Desplegament%20d'equips/Linux.md)
+[Linux.md](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips/Linux.md)
 
 # Resumen del proyecto
 
