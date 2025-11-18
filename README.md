@@ -1,6 +1,6 @@
 # 🏠[Pàgina principal.md](Projecte2-grup6)
 
-## 1.🖥️ [Hardware de serveis](Projecte2-grup6/Hardware%20de%20serveis)
+## 1. 🖥️ [Hardware de serveis](Projecte2-grup6/Hardware%20de%20serveis)
 
 Esta sección agrupa la documentación sobre el despliegue y configuración de todos los servicios esenciales del proyecto.
 
@@ -19,7 +19,7 @@ Esta sección agrupa la documentación sobre el despliegue y configuración de t
 
    - [Windows 🪟](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips/Windows.md)
 
-## 2.📡 [Hardware de xarxes](Projecte2-grup6/Hardware%20de%20xarxes)
+## 2. 📡 [Hardware de xarxes](Projecte2-grup6/Hardware%20de%20xarxes)
    
  - [DMZ-Intranet-NAT 🚦](Projecte2-grup6/Hardware%20de%20xarxes/Xarxes.md)
 
