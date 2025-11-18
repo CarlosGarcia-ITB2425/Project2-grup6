@@ -1,6 +1,6 @@
 ### [Pàgina principal.md](Projecte2-grup6)
 
-1. [Hardware de serveis.md](Projecte2-grup6/Hardware%20de%20serveis)
+1. [Hardware de serveis](Projecte2-grup6/Hardware%20de%20serveis)
 
    - [BBDD.md](Projecte2-grup6/Hardware%20de%20serveis/BBDD.md)
 
