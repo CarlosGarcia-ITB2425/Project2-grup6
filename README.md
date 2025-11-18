@@ -54,7 +54,9 @@ Se plantea un **router** que segmenta la red en tres zonas principales (topolog�
 | **Intranet** | Red interna privada | **Comunicaciones seguras** y privadas. |
 | **Zona NAT** | Traducción de direcciones | Gestión de **direcciones** y control de **tráfico saliente**. |
 
+### Diagrama de xarxa
 
+![Diagrama](/Projecte2-grup6/Imagenes/diagrama1.png)
 
 ---
 
