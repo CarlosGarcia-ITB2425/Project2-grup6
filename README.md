@@ -17,7 +17,7 @@
 
 ### 2. [Hardware de xarxes](Projecte2-grup6/Hardware%20de%20xarxes)
    
- - [DMZ-Intranet-NAT.md](Projecte2-grup6/Hardware%20de%20xarxes/DMZ-Intranet-NAT.md)
+ - [DMZ-Intranet-NAT.md](Projecte2-grup6/Hardware%20de%20xarxes/Xarxes.md)
 
 
 
