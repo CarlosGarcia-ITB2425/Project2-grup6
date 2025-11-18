@@ -1,4 +1,4 @@
-[DMZ](/Projecte2-grup6/Hardware%20de%20xarxes/DMZ.md)
+[DMZ](/Projecte2-grup6/Hardware%20de%20xarxes/🌐%20DMZ%20|%20🏢%20Intranet%20|%20🔀%20NAT.md)
 
 # Resumen del proyecto
 
