@@ -1,34 +1,25 @@
-🏠 Pàgina principal.md: Estructura del Projecte
-1. 🖥️ Hardware de Serveis
-Esta sección agrupa la documentación sobre el despliegue y configuración de todos los servicios esenciales del proyecto.
+# [Pàgina principal.md](Projecte2-grup6)
 
-BBDD 💾: BBDD
+## 1. [Hardware de serveis](Projecte2-grup6/Hardware%20de%20serveis)
 
-DHCP 📍: DHCP
+   - [BBDD](Projecte2-grup6/Hardware%20de%20serveis/BBDD.md)
+   - [DHCP](Projecte2-grup6/Hardware%20de%20serveis/DHCP.md)
+   - [DNS](Projecte2-grup6/Hardware%20de%20serveis/DNS.md)
+   - [FTP](Projecte2-grup6/Hardware%20de%20serveis/FTP.md)
+   - [SSH](Projecte2-grup6/Hardware%20de%20serveis/SSH.md)
+   - [Web server](Projecte2-grup6/Hardware%20de%20serveis/Web%20server.md)
 
-DNS 🌐: DNS
+   ### 1.1 [Desplegament d'equips](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips)
 
-FTP 📤: FTP
+   - [Linux](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips/Linux.md)
 
-SSH 🛡️: SSH
+   - [Windows](Projecte2-grup6/Hardware%20de%20serveis/Desplegament%20d'equips/Windows.md)
 
-Web server 🌍: Web server
+## 2. [Hardware de xarxes](Projecte2-grup6/Hardware%20de%20xarxes)
+   
+ - [DMZ-Intranet-NAT](Projecte2-grup6/Hardware%20de%20xarxes/Xarxes.md)
 
-1.1 Desplegament d'Equips (Clients)
-Documentación sobre los sistemas operativos cliente utilizados para las pruebas.
 
-Linux 🐧: Linux
-
-Windows 🪟: Windows
-
-2. 📡 Hardware de Xarxes
-Sección dedicada a la topología y la segmentación de la red.
-
-DMZ-Intranet-NAT 🚦: DMZ-Intranet-NAT
-
-Documento clave que detalla el diseño del router y la segmentación en las tres zonas de red.
-
-¿Necesitas que verifique o cree el contenido para alguno de estos documentos enlazados, como el de DMZ-Intranet-NAT?
 
 ---
 
