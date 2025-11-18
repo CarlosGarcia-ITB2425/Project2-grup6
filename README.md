@@ -1,4 +1,4 @@
-[DMZ](Hardware%20de%20xarxes/DMZ.md)
+[DMZ](/Projecte2-grup6/Hardware%20de%20xarxes/DMZ.md)
 
 # Resumen del proyecto
 
