@@ -19,8 +19,7 @@
    
  - [DMZ-Intranet-NAT](Projecte2-grup6/Hardware%20de%20xarxes/Xarxes.md)
 
-
-
+---
 
 # Resumen del proyecto
 
