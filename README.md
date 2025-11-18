@@ -54,7 +54,9 @@ Se plantea un **router** que segmenta la red en tres zonas principales (topolog�
 | **Intranet** | Red interna privada | **Comunicaciones seguras** y privadas. |
 | **Zona NAT** | Traducción de direcciones | Gestión de **direcciones** y control de **tráfico saliente**. |
 
-### Diagrama de xarxa
+### 🗺️ Visión General del Diagrama
+
+Este diagrama ilustra la **topología de red** propuesta, segmentada en tres zonas principales para optimizar la seguridad y la gestión del tráfico: **NAT**, **DMZ** e **Intranet**. La estructura se centra alrededor de un router principal que distribuye el acceso a los diferentes servicios y clientes.
 
 ![Diagrama](/Projecte2-grup6/Imagenes/diagrama1.png)
 
