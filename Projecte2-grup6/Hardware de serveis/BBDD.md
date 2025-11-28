@@ -141,7 +141,7 @@ Visualiza los primeros cinco registros insertados en la tabla para verificar que
 
 Abre una sesión MySQL desde un cliente remoto usando la IP del servidor, el usuario bchecker y una contraseña, comprobando que el acceso remoto está correctamente configurado.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](/Projecte2-grup6/Imagenes/ssh%20bbd.png)
 
 ## Listar bases de datos y tablas
 `SHOW DATABASES;
