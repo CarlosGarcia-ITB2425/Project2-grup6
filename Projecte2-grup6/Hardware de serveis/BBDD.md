@@ -94,7 +94,7 @@ Muestra las primeras líneas del archivo CSV para revisar que el separador de ca
 
 Define la estructura de la tabla equipaments con todos los campos necesarios para almacenar direcciones, categorías, atributos y coordenadas geográficas de cada registro.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](/Projecte2-grup6/Imagenes/creartabla.png)
  
 ## Ver estructura de la tabla equipaments
 
