@@ -25,7 +25,7 @@ CREATE DATABASE equipaments_educacio CHARACTER SET utf8mb4;`
 
 Crea un usuario dedicado llamado bchecker accesible desde cualquier host y genera la base de datos equipaments_educacio con codificación adecuada para caracteres especiales.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](/Projecte2-grup6/Imagenes/crearbchecker.png)
 
 ## Conceder privilegios al usuario bchecker
 
