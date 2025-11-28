@@ -42,7 +42,7 @@ Otorga al usuario bchecker todos los permisos sobre la base de datos equipaments
 
 Descarga desde el portal de datos abiertos del Ayuntamiento de Barcelona el fichero equipaments.csv con la información de los equipamientos educativos.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](/Projecte2-grup6/Imagenes/wget%20csv.png)
 
 ## Comprobar el contenido del CSV
 
