@@ -114,14 +114,6 @@ Comprueba si la variable local_infile está activa y se conecta a MySQL habilita
 
 ![update upgrade](/Projecte2-grup6/Imagenes/globalvariable.png)
 
-## SHOW GLOBAL VARIABLES LIKE 'local_infile';
-
-`mysql -u bchecker -p equipaments_educacio --local-infile=1`
-
-Comprueba si la variable local_infile está activa y se conecta a MySQL habilitando la carga de archivos locales, requisito para usar LOAD DATA LOCAL INFILE.
-
-![update upgrade](/Projecte2-grup6/Imagenes/bcheckerlocalinfile.png)
-
 ## Importar datos del CSV a la tabla
 
 `LOAD DATA LOCAL INFILE '/home/isard/equipaments_utf8.csv'
