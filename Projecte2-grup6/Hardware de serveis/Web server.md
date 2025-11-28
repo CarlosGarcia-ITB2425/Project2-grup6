@@ -92,11 +92,11 @@ Instala el módulo para que Apache2 procese páginas PHP.
 
 ## Crear archivo PHP de prueba
     
-`sudo nano info.php`
+`sudo nano equipaments.php`
 
 Crea el archivo PHP dentro del directorio del sitio para comprobar que PHP funciona.
 
-![info php](/Projecte2-grup6/Imagenes/info%20php.png)
+![info php](/Projecte2-grup6/Imagenes/equipamentsphp.png)
 
 ## Añadir código PHP a info.php
 
