@@ -133,7 +133,7 @@ Carga masivamente los registros del fichero CSV convertido a UTF‑8 en la tabla
 
 Visualiza los primeros cinco registros insertados en la tabla para verificar que las columnas se han importado correctamente y los datos son coherentes.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](/Projecte2-grup6/Imagenes/enseñartablas.png)
 
 ## Conexión remota a MySQL desde otra máquina
 
