@@ -34,7 +34,7 @@ FLUSH PRIVILEGES;`
 
 Otorga al usuario bchecker todos los permisos sobre la base de datos equipaments_educacio y recarga la tabla de privilegios para que los cambios tengan efecto inmediato.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](/Projecte2-grup6/Imagenes/privilegiosbchecker.png)
 
 ## Descargar el CSV de equipaments
 
