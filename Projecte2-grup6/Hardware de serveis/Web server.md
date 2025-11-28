@@ -108,6 +108,6 @@ Incluye funciones básicas de PHP para comprobar que el módulo está correctame
 
 Desde el navegador accede a la ruta /info.php en el servidor para comprobar la salida de PHP.
 
-![pagina php](/Projecte2-grup6/Imagenes/pagina%20php.png)
+![pagina php](/Projecte2-grup6/Imagenes/php.png)
 
 
