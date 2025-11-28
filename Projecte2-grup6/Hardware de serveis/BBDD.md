@@ -125,7 +125,7 @@ IGNORE 1 LINES;`
 
 Carga masivamente los registros del fichero CSV convertido a UTF‑8 en la tabla equipaments, ignorando la primera línea de encabezados y usando la coma como separador de campos.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](/Projecte2-grup6/Imagenes/load%20data.png)
 
 ## Comprobar contenido de la tabla
 
