@@ -114,6 +114,8 @@ Comprueba si la variable local_infile está activa y se conecta a MySQL habilita
 
 ![update upgrade](/Projecte2-grup6/Imagenes/globalvariable.png)
 
+![update upgrade](/Projecte2-grup6/Imagenes/bcheckerlocalinfile.png)
+
 ## Importar datos del CSV a la tabla
 
 `LOAD DATA LOCAL INFILE '/home/isard/equipaments_utf8.csv'
