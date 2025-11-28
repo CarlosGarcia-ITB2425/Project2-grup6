@@ -150,4 +150,4 @@ SHOW TABLES;`
 
 Muestra todas las bases de datos disponibles, selecciona equipaments_educacio como base de datos activa y lista sus tablas para confirmar que equipaments existe y es accesible.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](/Projecte2-grup6/Imagenes/comprobacion.png)
