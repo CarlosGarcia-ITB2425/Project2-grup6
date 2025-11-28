@@ -106,6 +106,14 @@ Muestra las columnas de la tabla equipaments con su tipo de dato, si permiten va
 
 ## Activar la opción local_infile en MySQL
 
+`SHOW GLOBAL VARIABLES LIKE 'local_infile';`
+
+`mysql -u bchecker -p equipaments_educacio --local-infile=1`
+
+Comprueba si la variable local_infile está activa y se conecta a MySQL habilitando la carga de archivos locales, requisito para usar LOAD DATA LOCAL INFILE.
+
+![update upgrade](/Projecte2-grup6/Imagenes/globalvariable.png)
+
 ## SHOW GLOBAL VARIABLES LIKE 'local_infile';
 
 `mysql -u bchecker -p equipaments_educacio --local-infile=1`
