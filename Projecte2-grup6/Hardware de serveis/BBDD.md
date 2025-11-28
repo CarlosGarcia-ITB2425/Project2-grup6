@@ -50,7 +50,7 @@ Descarga desde el portal de datos abiertos del Ayuntamiento de Barcelona el fich
 
 Muestra las primeras líneas del archivo CSV para revisar que el separador de campos, encabezados y datos sean correctos antes de importarlos a MySQL.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](/Projecte2-grup6/Imagenes/head.png)
 
 ## Crear la tabla equipaments
 
