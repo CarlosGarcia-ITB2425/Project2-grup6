@@ -102,7 +102,7 @@ Define la estructura de la tabla equipaments con todos los campos necesarios par
 
 Muestra las columnas de la tabla equipaments con su tipo de dato, si permiten valores nulos y otros detalles útiles para comprobar que la definición es correcta.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](/Projecte2-grup6/Imagenes/describeequipaments.png)
 
 ## Activar la opción local_infile en MySQL
 
