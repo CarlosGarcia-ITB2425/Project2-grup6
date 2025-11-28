@@ -112,7 +112,7 @@ Muestra las columnas de la tabla equipaments con su tipo de dato, si permiten va
 
 Comprueba si la variable local_infile está activa y se conecta a MySQL habilitando la carga de archivos locales, requisito para usar LOAD DATA LOCAL INFILE.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](/Projecte2-grup6/Imagenes/bcheckerlocalinfile.png)
 
 ## Importar datos del CSV a la tabla
 
