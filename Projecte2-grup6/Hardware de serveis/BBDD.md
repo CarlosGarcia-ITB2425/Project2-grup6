@@ -1,45 +1,66 @@
-Actualizar y actualizar el sistema
-bash
-sudo apt upgrade && sudo apt update
+## Actualizar y actualizar el sistema
+
+`sudo apt upgrade && sudo apt update`
+
 Actualiza la lista de paquetes e instala las versiones más recientes desde los repositorios de Ubuntu para evitar problemas de compatibilidad del sistema.
 
-Instalar el servidor MySQL
-bash
-sudo apt install mysql-server
+![update upgrade](Projecte2-grup6/Imagenes/)
+
+## Instalar el servidor MySQL
+
+`sudo apt install mysql-server`
+
 Instala el paquete del servidor MySQL desde los repositorios de Ubuntu para poder crear y gestionar bases de datos en el sistema.
 
-Habilitar y arrancar el servicio MySQL
-bash
-sudo systemctl enable mysql
-sudo systemctl start mysql
-sudo systemctl status mysql
+![update upgrade](Projecte2-grup6/Imagenes/)
+
+## Habilitar y arrancar el servicio MySQL
+
+`sudo systemctl enable mysql`
+`sudo systemctl start mysql`
+`sudo systemctl status mysql`
+
 Configura MySQL para iniciarse automáticamente con el sistema, lo arranca manualmente y comprueba que el servicio esté activo y en ejecución.
 
-Crear usuario y base de datos bchecker
-sql
-CREATE USER 'bchecker'@'%' IDENTIFIED BY 'bchecker121';
-CREATE DATABASE equipaments_educacio CHARACTER SET utf8mb4;
+![update upgrade](Projecte2-grup6/Imagenes/)
+
+## Crear usuario y base de datos bchecker
+
+`CREATE USER 'bchecker'@'%' IDENTIFIED BY 'bchecker121';
+CREATE DATABASE equipaments_educacio CHARACTER SET utf8mb4;`
+
 Crea un usuario dedicado llamado bchecker accesible desde cualquier host y genera la base de datos equipaments_educacio con codificación adecuada para caracteres especiales.
 
-Conceder privilegios al usuario bchecker
-sql
-GRANT ALL PRIVILEGES ON equipaments_educacio.* TO 'bchecker'@'%';
-FLUSH PRIVILEGES;
+![update upgrade](Projecte2-grup6/Imagenes/)
+
+## Conceder privilegios al usuario bchecker
+
+`GRANT ALL PRIVILEGES ON equipaments_educacio.* TO 'bchecker'@'%';
+FLUSH PRIVILEGES;`
+
 Otorga al usuario bchecker todos los permisos sobre la base de datos equipaments_educacio y recarga la tabla de privilegios para que los cambios tengan efecto inmediato.
 
-Descargar el CSV de equipaments
-bash
-wget https://opendata-ajuntament.barcelona.cat/data/.../download -O equipaments.csv
+![update upgrade](Projecte2-grup6/Imagenes/)
+
+## Descargar el CSV de equipaments
+
+`wget https://opendata-ajuntament.barcelona.cat/data/.../download -O equipaments.csv`
+
 Descarga desde el portal de datos abiertos del Ayuntamiento de Barcelona el fichero equipaments.csv con la información de los equipamientos educativos.
 
-Comprobar el contenido del CSV
-bash
-head -5 equipaments.csv
+![update upgrade](Projecte2-grup6/Imagenes/)
+
+## Comprobar el contenido del CSV
+
+`head -5 equipaments.csv`
+
 Muestra las primeras líneas del archivo CSV para revisar que el separador de campos, encabezados y datos sean correctos antes de importarlos a MySQL.
 
-Crear la tabla equipaments
-sql
-CREATE TABLE equipaments (
+![update upgrade](Projecte2-grup6/Imagenes/)
+
+## Crear la tabla equipaments
+
+`CREATE TABLE equipaments (
   register_id INT,
   name VARCHAR(200),
   institution_id INT,
@@ -75,44 +96,64 @@ CREATE TABLE equipaments (
   geo_epsg_25831_y DOUBLE,
   geo_epsg_4326_lat DOUBLE,
   geo_epsg_4326_lon DOUBLE
-);
+);`
+
 Define la estructura de la tabla equipaments con todos los campos necesarios para almacenar direcciones, categorías, atributos y coordenadas geográficas de cada registro.
 
-Ver estructura de la tabla equipaments
-sql
-DESCRIBE equipaments;
+![update upgrade](Projecte2-grup6/Imagenes/)
+ 
+## Ver estructura de la tabla equipaments
+
+`DESCRIBE equipaments;`
+
 Muestra las columnas de la tabla equipaments con su tipo de dato, si permiten valores nulos y otros detalles útiles para comprobar que la definición es correcta.
 
-Activar la opción local_infile en MySQL
-sql
-SHOW GLOBAL VARIABLES LIKE 'local_infile';
-bash
-mysql -u bchecker -p equipaments_educacio --local-infile=1
+![update upgrade](Projecte2-grup6/Imagenes/)
+
+## Activar la opción local_infile en MySQL
+
+## SHOW GLOBAL VARIABLES LIKE 'local_infile';
+
+`mysql -u bchecker -p equipaments_educacio --local-infile=1`
+
 Comprueba si la variable local_infile está activa y se conecta a MySQL habilitando la carga de archivos locales, requisito para usar LOAD DATA LOCAL INFILE.
 
-Importar datos del CSV a la tabla
-sql
-LOAD DATA LOCAL INFILE '/home/isard/equipaments_utf8.csv'
+![update upgrade](Projecte2-grup6/Imagenes/)
+
+## Importar datos del CSV a la tabla
+
+`LOAD DATA LOCAL INFILE '/home/isard/equipaments_utf8.csv'
 INTO TABLE equipaments
 FIELDS TERMINATED BY ','
 ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
-IGNORE 1 LINES;
+IGNORE 1 LINES;`
+
 Carga masivamente los registros del fichero CSV convertido a UTF‑8 en la tabla equipaments, ignorando la primera línea de encabezados y usando la coma como separador de campos.
 
-Comprobar contenido de la tabla
-sql
-SELECT * FROM equipaments LIMIT 5;
+![update upgrade](Projecte2-grup6/Imagenes/)
+
+## Comprobar contenido de la tabla
+
+`SELECT * FROM equipaments LIMIT 5;`
+
 Visualiza los primeros cinco registros insertados en la tabla para verificar que las columnas se han importado correctamente y los datos son coherentes.
 
-Conexión remota a MySQL desde otra máquina
-bash
-mysql -h 192.168.6.20 -u bchecker -p
+![update upgrade](Projecte2-grup6/Imagenes/)
+
+## Conexión remota a MySQL desde otra máquina
+
+`mysql -h 192.168.6.20 -u bchecker -p`
+
 Abre una sesión MySQL desde un cliente remoto usando la IP del servidor, el usuario bchecker y una contraseña, comprobando que el acceso remoto está correctamente configurado.
 
-Listar bases de datos y tablas
-sql
-SHOW DATABASES;
+![update upgrade](Projecte2-grup6/Imagenes/)
+
+## Listar bases de datos y tablas
+`SHOW DATABASES;
 USE equipaments_educacio;
-SHOW TABLES;
+SHOW TABLES;`
+
 Muestra todas las bases de datos disponibles, selecciona equipaments_educacio como base de datos activa y lista sus tablas para confirmar que equipaments existe y es accesible.
+
+![update upgrade](Projecte2-grup6/Imagenes/)
