@@ -102,12 +102,14 @@ Crea el archivo PHP dentro del directorio del sitio para comprobar que PHP funci
 
 Incluye funciones básicas de PHP para comprobar que el módulo está correctamente instalado.
 
-![contenido php](/Projecte2-grup6/Imagenes/contenido%20php.png)
+![pagina php](/Projecte2-grup6/Imagenes/php.png)
 
 ## Visualizar la página PHP en el navegador
 
 Desde el navegador accede a la ruta /info.php en el servidor para comprobar la salida de PHP.
 
-![pagina php](/Projecte2-grup6/Imagenes/php.png)
+![pagina php](/Projecte2-grup6/Imagenes/Listas1.png)
+
+![pagina php](/Projecte2-grup6/Imagenes/Listas2.png)
 
 
