@@ -22,7 +22,8 @@ Instala el paquete del servidor MySQL desde los repositorios de Ubuntu para pode
 
 Configura MySQL para iniciarse automáticamente con el sistema, lo arranca manualmente y comprueba que el servicio esté activo y en ejecución.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](Projecte2-grup6/Imagenes/enable.png)
+![update upgrade](Projecte2-grup6/Imagenes/startstatus.png)
 
 ## Crear usuario y base de datos bchecker
 
