@@ -1,18 +1,10 @@
-## Actualizar y actualizar el sistema
-
-`sudo apt upgrade && sudo apt update`
-
-Actualiza la lista de paquetes e instala las versiones más recientes desde los repositorios de Ubuntu para evitar problemas de compatibilidad del sistema.
-
-![update upgrade](Projecte2-grup6/Imagenes/)
-
 ## Instalar el servidor MySQL
 
 `sudo apt install mysql-server`
 
 Instala el paquete del servidor MySQL desde los repositorios de Ubuntu para poder crear y gestionar bases de datos en el sistema.
 
-![update upgrade](Projecte2-grup6/Imagenes/)
+![update upgrade](/Projecte2-grup6/Imagenes/installmysql.png)
 
 ## Habilitar y arrancar el servicio MySQL
 
