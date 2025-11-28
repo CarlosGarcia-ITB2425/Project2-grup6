@@ -1,4 +1,4 @@
-# 🏠[Pàgina principal.md](Projecte2-grup6)
+# 🏠[Pàgina principal](Projecte2-grup6)
 
 ## 1. 🖥️ [Hardware de serveis](Projecte2-grup6/Hardware%20de%20serveis)
 
