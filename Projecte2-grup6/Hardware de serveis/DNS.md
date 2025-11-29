@@ -34,14 +34,3 @@ Aquí se definen los registros PTR para la resolución inversa:
 
 ---
 ​
-## Comprobar la configuración
-
-`sudo named-checkconf`
-
-`sudo named-checkzone midominio.local /etc/bind/db.midominio.local`
-
-`sudo named-checkzone 6.168.192.in-addr.arpa /etc/bind/db.192.168.6`
-
-Se emplean los comandos para verificar que la sintaxis de la configuración y los archivos de zona sean correctos antes de reiniciar el servicio DNS.
-
-![Comprobación de archivos de zona](/Projecte2-grup6/Imagenes/comprobacion.png)​
